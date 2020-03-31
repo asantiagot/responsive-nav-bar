@@ -1,0 +1,38 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+nav {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    min-height: 8vh;
+    background-color: rgb(42, 52, 71);
+    font-family: Helvetica, sans-serif;
+}
+
+.logo {
+    color: rgb(235, 235, 235);
+    text-transform: uppercase;
+    letter-spacing: 5px;
+}
+
+.nav-links li {
+    list-style: none;
+}
+
+.nav-links {
+    display: flex;
+    justify-content: space-around;
+    width: 50%;
+}
+
+.nav-links a {
+    text-decoration: none;
+    color: rgb(235, 235, 235);
+    letter-spacing: 3px;
+    font-weight: bold;
+    font-size: 14px;
+}
